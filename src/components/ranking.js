@@ -15,7 +15,8 @@ export default class Ranking extends React.Component{
     }
 
     async fetchData(){
-        const url = 'http://localhost:5000/';
+        //const url = 'http://localhost:5000/';
+        const url = 'http://18.217.174.174:5000/';
         const respone = await fetch(url);
         const data = await respone.json();
         // data.forEach(element => {
